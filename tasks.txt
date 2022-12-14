@@ -11,3 +11,7 @@ Add new entries in specialties table: "IT Specialist".
 Add new entries in vets table:
 "Eugene Shpak", "IT Specialist",
 "Olga Shpak", "IT Specialist"
+
+Task 4
+In our page "Error" the title is "Something happened..." It is necessary to replace it with
+"Something happened... {n} times." where n is the number of visits of the page.
