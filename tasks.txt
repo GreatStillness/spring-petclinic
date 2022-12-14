@@ -1,10 +1,10 @@
 Task 1
 It is necessary to make the following replacement of the wordings:
-- Replace "Veterinarians" with "Our specialists" in the header.
-- Replace "Veterinarians" with "Our specialists" in the "Veterinarians" page.
++ Replace "Veterinarians" with "Our specialists" in the header.
++ Replace "Veterinarians" with "Our specialists" in the "Veterinarians" page.
 
 Task 2
-It is necessary to replace the "Not Found" message in "Find Owners" page. Use "not found" wording instead of "has not been found" which is currently used.
+ + It is necessary to replace the "Not Found" message in "Find Owners" page. Use "not found" wording instead of "has not been found" which is currently used.
 
 Task 3
 Add new entries in specialties table: "IT Specialist".
