@@ -27,11 +27,14 @@ import org.springframework.web.bind.annotation.GetMapping;
  */
 @Controller
 class CrashController {
+int timesVisitedErrorPage = 0;
 
 	@GetMapping("/oups")
 	public String triggerException() {
+		timesVisitedErrorPage++;
+
 		throw new RuntimeException(
-				"Expected: controller used to showcase what " + "happens when an exception is thrown");
+			timesVisitedErrorPage + " times. " + "Expected: controller used to showcase what " + "happens when an exception is thrown");
 	}
 
 }
